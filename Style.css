@@ -1,0 +1,118 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: pink;  
+
+    font-family: Arial, sans-serif;
+    text-align: center;
+    src: url(Barbie\ movie.jpg);
+
+}
+
+.poster {
+    font-family: Arial, sans-serif;
+    background-image: url(Barbie\ movie.jpg);
+    background-size: cover;
+    background-color: pink;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 400px;
+    position: relative;
+}
+
+.poster .overlay {
+    position: relative;
+}
+
+.poster img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    background-color: pink;
+}
+
+.text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(255, 47, 182);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@font-face {
+    font-family: 'Dollie Script';
+    src: url('DollieScript_PersonalUse.ttf') format('truetype');
+}
+.text h1 {
+    font-size: 42px;
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+    font-family: Dollie Script;
+    src: url(DollieScript_PersonalUse.ttf);
+   
+    text-shadow: 4px 4px 0 rgb(218, 19, 115); /* Adjust the shadow's position and color as needed */
+
+
+}
+
+
+.text h1 .p {
+    font-size: 18px;
+    margin: 5px 0 ;
+    position:relative;
+    top: 50px;
+    margin-top: 50px.0;
+   
+    
+}
+
+p {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    left: 0%;
+    right:auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.center {
+    margin-top: 20px;
+}
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: #00cc58;
+}
+
+.top_left{
+    position: relative;
+    top: 0px;
+    left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+.top_rigth{
+    position: relative;
+    top: 0px;
+    right: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+} 
+.name{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
